@@ -30,3 +30,13 @@ h3{
 .trust{
     text-align: center;
 }
+.dropdown-menu{
+    background:  #ffc107;
+   
+}
+/* .dropdown-menu:hover{
+    border:2px solid black;
+} */
+.dropdown-item:hover{
+    border: 2px solid black;
+}
