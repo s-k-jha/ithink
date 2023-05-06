@@ -6,11 +6,12 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/stylefooter.css">
 </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-warning">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">ITHINK-HS®</a>
+          <a class="navbar-brand" href="#"><img src="/images/i-letter.png" alt="icon-i"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -19,9 +20,9 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Service</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#">Testimonials</a>
               </li>
@@ -39,6 +40,22 @@
                   <li><a class="dropdown-item" href="#">Free Consultant</a></li>
                 </ul>
               </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                  <li><a class="dropdown-item" href="#">Location</a></li>
+                  <li><a class="dropdown-item" href="#">Gallery</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Special Offers</a></li>
+                  <li><a class="dropdown-item" href="#">Free Consultant</a></li>
+                </ul>
+              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact us</a>
               </li>
@@ -50,7 +67,7 @@
           </div>
         </div>
       </nav>
-
+       
       <!-- cerousel starts -->
      
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-interval="100">
@@ -75,16 +92,18 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-     
       <!-- carousel ends -->
 
       <!-- about section starts -->
       <div class="about_me">
-      <h3>India's Chip Level Expert Engineers</h3>
+
+      <span><b><i>India's Chip Level Expert Engineers</i></b></span>
+      <br><br><br>
+      
       <div class="card mb-3" style="max-width: 100vw;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="/images/personal_image.jpg" class="img-fluid rounded-start" alt="...">
+            <img src="/images/mac lid close.jpg" class="img-fluid rounded-start" alt="personal_img">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -99,16 +118,112 @@
       <p></p>
       
     </div>
+    <br>
     <!-- about section ends -->
 
     <!-- trust section starts  -->
     <div class="trust">
-        <h3>Trusted by over 10,000 customers</h3>
+        <span><b><I>Reviews By Our Customers</I></b></span>
+        <br><br><br>
+        <!-- trusted partners list starts -->
+        <div class="card-group">
+          <div class="card">
+            <img src="/images/mac lid close.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Amit Mehta</h5>
+              <p class="card-text">
+                It was great to find a place where they could fix my MacBook after Apple suggested there was nothing to do but buy a new computer. They have great customer service and accurate information on the status of your repair.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/images/mac lid close.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sumit Sharma</h5>
+              <p class="card-text">Very happy with service.
+                Worth the money and they are a real bunch of seasoned professionals who know what they are doing.
+                Well done !!!</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/images/mac lid close.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Viput Goel</h5>
+              <p class="card-text">Quick and trustworthy service. Given the appropriate resolution of the problem. Satisfied with the response.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- trusted partners list ends -->
     </div>
-    
+  
+    <br><br>
+  
     <!--trust section ends  -->
-
-
+   <div class="footer">
+    <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <i class="fab fa-slack"></i>
+            <span class="logo_name">ithink-HS</span>
+          </div>
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">Company</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">feedback</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Services</li>
+            <li><a href="#">imac</a></li>
+            <li><a href="#">mac-os</a></li>
+            <li><a href="#">mac-mini</a></li>
+            <li><a href="#">mac-cylinder</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">accounts</li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">My account</a></li>
+            <li><a href="#">Prefrences</a></li>
+            <li><a href="#">Purchase</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Courses</li>
+            <li><a href="#">HTML & CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Photography</a></li>
+            <li><a href="#">Photoshop</a></li>
+          </ul>
+          <ul class="box input-box">
+            <li class="link_name">Subscribe</li>
+            <li><input type="text" placeholder="Enter your email"></li>
+            <li><input type="button" value="Subscribe"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright © 2023  <a href="#">iTHINK-HS</a>All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </div>
     <!-- SCRIPT  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
