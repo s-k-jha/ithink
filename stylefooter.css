@@ -8,7 +8,7 @@
   } 
   footer::before{
     content: '';
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 100px;
     height: 1px;
@@ -167,9 +167,9 @@
   .bottom-details .bottom_text span,
   .bottom-details .bottom_text a{
     font-size: 14px;
-    font-weight: 300;
+    /* font-weight: 300; */
     color: black;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     text-decoration: none;
   }
   .bottom-details .bottom_text a:hover{

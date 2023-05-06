@@ -31,3 +31,32 @@
 .navbar-brand img {
     height: 30px;
 }
+.nav-item{
+    font-size: large;
+    /* color: black; */
+}
+
+.nav-item:hover{
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+}
+.nav-link{
+    color: black;
+}
+
+/* map styling */
+
+.google-map {
+    padding-bottom: 30%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+/* map styling ends */
