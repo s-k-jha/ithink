@@ -79,3 +79,16 @@
 }
 
 /* counter styling ends */
+.phone-no{
+    /* background: black; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    
+    
+}
+.phone-no a{
+    text-decoration: none;
+    /* color: #ffc107; */
+    color: black;
+}
