@@ -1,8 +1,11 @@
+/* about image mirror view style */
+
 .col-md-4 img:hover{
     
         transform: scaleX(-1);
       
 }
+/* image mirror view ends */
 .carousel-inner{
     /* height: 500px; */
     max-width: 100%;
