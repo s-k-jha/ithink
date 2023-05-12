@@ -1,8 +1,4 @@
-body{
-  overflow-x: hidden;
-}
 /* about image mirror view style */
-
 .col-md-4 img:hover{
     
         transform: scaleX(-1);
@@ -29,42 +25,42 @@ body{
 }
 .trust span{
     border-bottom: 3px solid #ffc107;
-}
+           }
 
 .trust{
     text-align: center;
-}
+      }
 .dropdown-menu{
     background:  #ffc107;
    
-}
+              }
 
 .dropdown-item:hover{
     border: 2px solid black;
-}
+                    }
 .navbar-brand img {
     height: 30px;
-}
+                  }
 .nav-item{
     font-size: large;
     /* color: black; */
-}
+         }
 
 .nav-item:hover{
     border: 2px solid black;
     border-radius: 12px;
     color: white;
-}
+               }
 .nav-link{
     color: black;
-}
+          }
 
 /* map styling */
 
 .google-map {
     padding-bottom: 30%;
     position: relative;
-}
+            }
 
 .google-map iframe {
     height: 100%;
@@ -72,91 +68,32 @@ body{
     left: 0;
     top: 0;
     position: absolute;
-}
+                    }
 /* map styling ends */
+
+
 /* counter styling starts */
 .counter{
     /* background: red; */
     padding-left: 40%;
     padding-bottom: 30px;
-}
+        }
 
 /* counter styling ends */
+
+
 .phone-no{
     /* background: black; */
     font-family: Arial, Helvetica, sans-serif;
     /* border: 2px solid red; */
     border-radius: 5px;
-    
-    
-}
+         }
+
 .phone-no a{
     text-decoration: none;
-    /* color: #ffc107; */
     color: black;
-}
+           }
 
-/* testing starts for carousel trusted partners */
-
-/* html, body {
-    margin: 0;
-    padding: 0;
-  } */
-  
-/*   
-  .pic-ctn {
-    width: 100vw;
-    height: 200px;
-    
-  } */
-  @keyframes display {
-    0% {
-      transform: translate3d(200px);
-      opacity: 100;
-    }
-    10% {
-      transform: translateX(0);
-      opacity: 100;
-    }
-    20% {
-      transform: translateX(0);
-      opacity: 100;
-    }
-    30% {
-      transform: translateX(-200px);
-      opacity: 100;
-    }
-    100% {
-      transform: translateX(-200px);
-      opacity: 100;
-    }
+  .row{
+    padding-bottom: 180px;
   }
-  
-  .pic-ctn {
-    position: relative;
-    width: 100vw;
-    height: 300px;
-    margin: 4vh;
-  }
-  
-  .pic-ctn > img {
-    position: absolute;
-    top: 0;
-    left: calc(50% - 100px);
-    opacity: 0;
-    animation: display 10s infinite;
-  }
-  
-  img:nth-child(2) {
-    animation-delay: 2s;
-  }
-  img:nth-child(3) {
-    animation-delay: 4s;
-  }
-  img:nth-child(4) {
-    animation-delay: 6s;
-  }
-  img:nth-child(5) {
-    animation-delay: 8s;
-  }
-  /* testing carousel ends */
