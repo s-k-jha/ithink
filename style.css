@@ -8,10 +8,6 @@ html{
     
    }
    
-  
-     
-        
-        
 
 .about_me{
     padding-top: 40px;
@@ -87,7 +83,7 @@ html{
 
 /* counter styling starts */
 .counter{
-    /* background: red; */
+    
     padding-left: 40%;
     padding-bottom: 30px;
         }
@@ -96,9 +92,8 @@ html{
 
 
 .phone-no{
-    /* background: black; */
+    
     font-family: Arial, Helvetica, sans-serif;
-    /* border: 2px solid red; */
     border-radius: 5px;
          }
 
@@ -110,3 +105,169 @@ html{
   .row{
     padding-bottom: 180px;
   }
+
+  /* 30 may customer section styling testings starts  */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  
+  
+  
+  .container{
+    /* padding-top: 30px; */
+      width: 100%;
+      height: 50%;
+      display: -webkit-box;
+      overflow-x: hidden;
+      /* position: relative; */
+  
+  }
+  
+  .container .card-container{
+  
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      
+  }
+  
+  .container .card-container .card{
+  
+      width: 23%;
+      height: 100%;
+      background-color: #ffc107;
+      border-radius: .5vw;
+      box-shadow: 0 0 0vw .18vw transparent;
+  
+  }
+  
+  .container .card-container .card .image{
+  
+      width: 100%;
+      height: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+  }
+  
+  
+  .container .card-container .card .image div{
+  
+      width: 50%;
+      background-color: black;
+      border-radius: 5vw;
+      padding: 2%;
+  
+  }
+  
+  .container .card-container .card .image div img{
+  
+      width: 100%;
+      border-radius: 5vw;
+  
+  }
+  
+  .container .card-container .card .details{
+  
+      width: 100%;
+      height: 25vh;
+      text-align: center;
+  
+  }
+  
+  .container .card-container .card .details .name{
+  
+      font-size: 1.3vw;
+      color: rgb(4, 0, 0);
+      font-weight: bold;
+  
+  }
+  
+  .container .card-container .card .details .job{
+  
+      font-size: 1.2vw;
+      color: #070202;
+  
+  }
+  
+  
+  .container .card-container .card .button{
+  
+      width: 100%;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+  }
+  
+  .container .card-container .card .button button{
+  
+      width: 50%;
+      height: 70%;
+      font-size: 1.2vw;
+      cursor: pointer;
+      background-color: white;
+      border: .2vw solid #080601;
+      outline: none;
+      border-radius: .3vw;
+      transition: .2s;
+  
+  }
+  
+  
+  .container .card-container .card .button button:active{
+  
+      background-color: #FFC107;
+      transform: scale(1.1);
+  
+  }
+  
+  .arrow-left{
+  
+      width: 3%;
+      padding: .5% 0;
+      background-color: #FFC107;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* position: fixed; */
+      z-index: 2;
+      left: 5%;
+      top: 55%;
+      border-radius: 5vw;
+      font-size: 2vw;
+      cursor: pointer;
+  
+  }
+  
+  .arrow-right{
+  
+      width: 3%;
+      padding: .5% 0;
+      /* padding-left: 50px; */
+      background-color: #FFC107;
+      color: black;
+      display: flex;
+      align-items: center;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      z-index: 2;
+      right: 5%;
+      top:55%;
+      border-radius: 5vw;
+      font-size: 2vw;
+      cursor: pointer;
+  
+  }
+  .happy-customers{
+    background: black;
+    color: white;
+    padding-bottom: 30px;
+  }
+
+  /* testing ends customers section */

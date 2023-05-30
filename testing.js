@@ -2,42 +2,42 @@
 const data = [
 
     {
-        src: "./g1.png",
+        src: "./images/my company logo-1.jpg",
+        nameVal: "Shivam kumar",
+        jobVal: "Full Stack Developer",
+    },
+    {
+        src: "./images/my company logo-1.jpg",
+        nameVal: "Aman kumar",
+        jobVal: "Full Stack Developer",
+    },
+    {
+        src: "./images/my company logo-1.jpg",
+        nameVal: "Nitin sharma",
+        jobVal: "Full Stack Developer",
+    },
+    {
+        src: "./images/my company logo-1.jpg",
+        nameVal: "Harsh Kumar",
+        jobVal: "Full Stack Developer",
+    },
+    {
+        src: "./images/my company logo-1.jpg",
+        nameVal: "Shivam kumar ",
+        jobVal: "Full Stack Developer",
+    },
+    {
+        src: "./images/my company logo-1.jpg",
         nameVal: "Someone Famous",
         jobVal: "Full Stack Developer",
     },
     {
-        src: "./g2.png",
+        src: "./images/my company logo-1.jpg",
         nameVal: "Someone Famous",
         jobVal: "Full Stack Developer",
     },
     {
-        src: "./b1.png",
-        nameVal: "Someone Famous",
-        jobVal: "Full Stack Developer",
-    },
-    {
-        src: "./b2.png",
-        nameVal: "Someone Famous",
-        jobVal: "Full Stack Developer",
-    },
-    {
-        src: "./b3.png",
-        nameVal: "Someone Famous",
-        jobVal: "Full Stack Developer",
-    },
-    {
-        src: "./b4.png",
-        nameVal: "Someone Famous",
-        jobVal: "Full Stack Developer",
-    },
-    {
-        src: "./g2.png",
-        nameVal: "Someone Famous",
-        jobVal: "Full Stack Developer",
-    },
-    {
-        src: "./b3.png",
+        src: "./images/my company logo-1.jpg",
         nameVal: "Someone Famous",
         jobVal: "Full Stack Developer",
     },
