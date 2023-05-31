@@ -7,7 +7,6 @@ html{
     /* height: auto; */
     
    }
-   
 
 .about_me{
     padding-top: 40px;
@@ -229,15 +228,15 @@ html{
   
       width: 3%;
       padding: .5% 0;
-      background-color: #FFC107;
+      background-color: #34ff07;
       color: black;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      /* position: fixed; */
-      z-index: 2;
-      left: 5%;
-      top: 55%;
+      /* display: flex; */
+      /* align-items: center; */
+      /* justify-content: center; */
+      position: absolute;
+      /* z-index: 2; */
+      /* left: 5%; */
+      /* top: 55%; */
       border-radius: 5vw;
       font-size: 2vw;
       cursor: pointer;
@@ -251,14 +250,14 @@ html{
       /* padding-left: 50px; */
       background-color: #FFC107;
       color: black;
-      display: flex;
-      align-items: center;
-      align-items: center;
-      justify-content: center;
-      position: fixed;
-      z-index: 2;
-      right: 5%;
-      top:55%;
+      /* display: flex; */
+      /* align-items: center; */
+      /* align-items: center; */
+      /* justify-content: center; */
+      position: absolute;
+      /* z-index: 2; */
+      right: 2%;
+      top:325%;
       border-radius: 5vw;
       font-size: 2vw;
       cursor: pointer;
