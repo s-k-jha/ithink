@@ -33,14 +33,21 @@ html {
 
 /* how we can help you section styling ends */
 
-.trust span {
+/* comment for some duration testing */
+
+/* .trust span {
     border-bottom: 3px solid #ffc107;
 }
 
 .trust {
     text-align: center;
-}
+} */
 
+/* comment ends for some duration */
+
+
+
+/* header navigation, dropdown , hover styling starts */
 .dropdown-menu {
     background: #ffc107;
 
@@ -67,6 +74,8 @@ html {
 .nav-link {
     color: black;
 }
+/* header navigation, dropdown , hover styling ends */
+
 
 /* map styling */
 
@@ -93,9 +102,16 @@ html {
     padding-bottom: 30px;
 }
 
+.website-counter-text {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* counter styling ends */
 
-
+/* phone number styling */
 .phone-no {
 
     font-family: Arial, Helvetica, sans-serif;
@@ -107,9 +123,14 @@ html {
     color: black;
 }
 
+
+/* phone number styling ends */
+
+/* about-row-feature-padding */
 .row {
     padding-bottom: 180px;
 }
+/* about-row-feature-padding-styling-ends */
 
 /* reviews section for customer starts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
@@ -254,7 +275,7 @@ html {
     top: 50%;
     border-radius: 5vw;
     font-size: 2vw;
-    cursor: pointer;
+    cursor:pointer;
 
 }
 
