@@ -1,74 +1,79 @@
-html{
+html {
     overflow-x: hidden;
 }
-.carousel-inner{
+
+.carousel-inner {
     /* height: 700px; */
     max-width: 100%;
     /* height: auto; */
-    
-   }
 
-.about_me{
+}
+
+.about_me {
     padding-top: 40px;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+
 }
 
 /* how we can help you section styling starts */
-  .help-text{
+.help-text {
     /* background: red; */
-     background-image: linear-gradient(to left bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3));
+    background-image: linear-gradient(to left bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3));
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     padding: 30px 2px 4px 20px;
-  }
- .help-text:hover{
-  background-image: linear-gradient(to  bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3));
-  box-shadow: inset 0 0 10px rgb(0, 0, 0);
- }
+}
+
+.help-text:hover {
+    background-image: linear-gradient(to bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3));
+    box-shadow: inset 0 0 10px rgb(0, 0, 0);
+}
 
 /* how we can help you section styling ends */
 
-.trust span{
+.trust span {
     border-bottom: 3px solid #ffc107;
-           }
+}
 
-.trust{
+.trust {
     text-align: center;
-      }
-.dropdown-menu{
-    background:  #ffc107;
-   
-              }
+}
 
-.dropdown-item:hover{
+.dropdown-menu {
+    background: #ffc107;
+
+}
+
+.dropdown-item:hover {
     border: 2px solid black;
-                    }
+}
+
 .navbar-brand img {
     height: 30px;
-                  }
-.nav-item{
-    font-size: large;
-    /* color: black; */
-         }
+}
 
-.nav-item:hover{
+.nav-item {
+    font-size: large;
+}
+
+.nav-item:hover {
     border: 2px solid black;
     border-radius: 12px;
     color: white;
-               }
-.nav-link{
+}
+
+.nav-link {
     color: black;
-          }
+}
 
 /* map styling */
 
 .google-map {
     padding-bottom: 30%;
     position: relative;
-            }
+}
 
 .google-map iframe {
     height: 100%;
@@ -76,203 +81,193 @@ html{
     left: 0;
     top: 0;
     position: absolute;
-                    }
+}
+
 /* map styling ends */
 
 
 /* counter styling starts */
-.counter{
-    
+.counter {
+
     padding-left: 40%;
     padding-bottom: 30px;
-        }
+}
 
 /* counter styling ends */
 
 
-.phone-no{
-    
+.phone-no {
+
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
-         }
+}
 
-.phone-no a{
+.phone-no a {
     text-decoration: none;
     color: black;
-           }
+}
 
-  .row{
+.row {
     padding-bottom: 180px;
-  }
+}
 
-  /* 30 may customer section styling testings starts  */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-  
-  
-  
-  .container{
-    /* padding-top: 30px; */
-      width: 100%;
-      height: 50%;
-      display: -webkit-box;
-      overflow-x: hidden;
-      /* position: relative; */
-  
-  }
-  
-  .container .card-container{
-  
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      
-  }
-  
-  .container .card-container .card{
-  
-      width: 23%;
-      height: 100%;
-      background-color: #ffc107;
-      border-radius: .5vw;
-      box-shadow: 0 0 0vw .18vw transparent;
-  
-  }
-  
-  .container .card-container .card .image{
-  
-      width: 100%;
-      height: 60%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  
-  }
-  
-  
-  .container .card-container .card .image div{
-  
-      width: 50%;
-      background-color: black;
-      border-radius: 5vw;
-      padding: 2%;
-  
-  }
-  
-  .container .card-container .card .image div img{
-  
-      width: 100%;
-      border-radius: 5vw;
-  
-  }
-  
-  .container .card-container .card .details{
-  
-      width: 100%;
-      height: 25vh;
-      text-align: center;
-  
-  }
-  
-  .container .card-container .card .details .name{
-  
-      font-size: 1.3vw;
-      color: rgb(4, 0, 0);
-      font-weight: bold;
-  
-  }
-  
-  .container .card-container .card .details .job{
-  
-      font-size: 1.2vw;
-      color: #070202;
-  
-  }
-  
-  
-  .container .card-container .card .button{
-  
-      width: 100%;
-      height: 10vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  
-  }
-  
-  .container .card-container .card .button button{
-  
-      width: 50%;
-      height: 70%;
-      font-size: 1.2vw;
-      cursor: pointer;
-      background-color: white;
-      border: .2vw solid #080601;
-      outline: none;
-      border-radius: .3vw;
-      transition: .2s;
-  
-  }
-  
-  
-  .container .card-container .card .button button:active{
-  
-      background-color: #FFC107;
-      transform: scale(1.1);
-  
-  }
-  
-   .arrow-left{
-  
-      width: 3%;
-      padding: .5% 0;
-      background-color: #34ff07;
-      color: black;
-      /* display: flex; */
-      /* align-items: center; */
-      /* justify-content: center; */
-      position: absolute;
-      z-index: 2; 
-      left: 3%;
-      top: 50%;
-      border-radius: 5vw;
-      font-size: 2vw;
-      cursor: pointer;
-  
-   } 
-  
-  .arrow-right{
-  
-      width: 3%;
-      padding: .5% 0;
-      padding-left: 50px;
-      background-color: #FFC107;
-      color: black;
-      /* display: flex; */
-      /* align-items: center;
-      align-items: center;
-      justify-content: center;*/
-      position: absolute;
-      z-index: 2; 
-      right: 3%;
-      top:50%;
-      border-radius: 5vw;
-      font-size: 2vw;
-      cursor: pointer;
-  
- }
-  .happy-customers{
+/* reviews section for customer starts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.container {
+    width: 100%;
+    height: 50%;
+    display: -webkit-box;
+    overflow-x: hidden;
+}
+
+.container .card-container {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.container .card-container .card {
+
+    width: 23%;
+    height: 100%;
+    background-color: #ffc107;
+    border-radius: .5vw;
+    box-shadow: 0 0 0vw .18vw transparent;
+
+}
+
+.container .card-container .card .image {
+
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.container .card-container .card .image div {
+
+    width: 50%;
+    background-color: black;
+    border-radius: 5vw;
+    padding: 2%;
+
+}
+
+.container .card-container .card .image div img {
+
+    width: 100%;
+    border-radius: 5vw;
+
+}
+
+.container .card-container .card .details {
+
+    width: 100%;
+    height: 25vh;
+    text-align: center;
+
+}
+
+.container .card-container .card .details .name {
+
+    font-size: 1.3vw;
+    color: rgb(4, 0, 0);
+    font-weight: bold;
+
+}
+
+.container .card-container .card .details .job {
+
+    font-size: 1.2vw;
+    color: #070202;
+
+}
+
+
+.container .card-container .card .button {
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container .card-container .card .button button {
+
+    width: 50%;
+    height: 70%;
+    font-size: 1.2vw;
+    cursor: pointer;
+    background-color: white;
+    border: .2vw solid #080601;
+    outline: none;
+    border-radius: .3vw;
+    transition: .2s;
+
+}
+
+
+.container .card-container .card .button button:active {
+
+    background-color: #FFC107;
+    transform: scale(1.1);
+
+}
+
+.arrow-left {
+
+    width: 3%;
+    padding: .5% 0;
+    background-color: #ffc107;
+    color: black;
+    position: absolute;
+    z-index: 2;
+    left: 3%;
+    top: 50%;
+    border-radius: 5vw;
+    font-size: 2vw;
+    cursor: pointer;
+
+}
+
+.arrow-right {
+
+    width: 3%;
+    padding: .5% 0;
+    /* padding-left: 50px; */
+    background-color: #FFC107;
+    color: black;
+    position: absolute;
+    z-index: 2;
+    right: 3%;
+    top: 50%;
+    border-radius: 5vw;
+    font-size: 2vw;
+    cursor: pointer;
+
+}
+
+.happy-customers {
     background: black;
     color: white;
     padding-bottom: 30px;
-  }
+}
 
-  /* testing ends customers section */
-
-  .button-arrow{
+.button-arrow {
     position: relative;
     display: block;
     height: 10%;
-  }
+}
+
+/* review section for customers ends */
