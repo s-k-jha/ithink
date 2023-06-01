@@ -224,7 +224,7 @@ html{
   
   }
   
-  .arrow-left{
+   .arrow-left{
   
       width: 3%;
       padding: .5% 0;
@@ -234,35 +234,35 @@ html{
       /* align-items: center; */
       /* justify-content: center; */
       position: absolute;
-      /* z-index: 2; */
-      /* left: 5%; */
-      /* top: 55%; */
+      z-index: 2; 
+      left: 3%;
+      top: 50%;
       border-radius: 5vw;
       font-size: 2vw;
       cursor: pointer;
   
-  }
+   } 
   
   .arrow-right{
   
       width: 3%;
       padding: .5% 0;
-      /* padding-left: 50px; */
+      padding-left: 50px;
       background-color: #FFC107;
       color: black;
       /* display: flex; */
-      /* align-items: center; */
-      /* align-items: center; */
-      /* justify-content: center; */
+      /* align-items: center;
+      align-items: center;
+      justify-content: center;*/
       position: absolute;
-      /* z-index: 2; */
-      right: 2%;
-      top:325%;
+      z-index: 2; 
+      right: 3%;
+      top:50%;
       border-radius: 5vw;
       font-size: 2vw;
       cursor: pointer;
   
-  }
+ }
   .happy-customers{
     background: black;
     color: white;
@@ -270,3 +270,9 @@ html{
   }
 
   /* testing ends customers section */
+
+  .button-arrow{
+    position: relative;
+    display: block;
+    height: 10%;
+  }

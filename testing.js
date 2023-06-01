@@ -414,12 +414,10 @@ document.getElementById("rightButton").addEventListener("click", () => {
 
     }
 
-
 })
 
 //next button event
 document.getElementById("leftButton").addEventListener("click", () => {
-
 
     if (scrollIndex === 0 || scrollIndex < 0) {
 
@@ -438,9 +436,6 @@ document.getElementById("leftButton").addEventListener("click", () => {
         current.scrollIntoView({ behavior: "smooth" })
 
     }
-
-
-
 })
 
 //change groupBy nummber
@@ -467,8 +462,6 @@ function setGroupBy(number) {
     console.log(groupIds)
 
     createCards()
-
-
 
 }
 
