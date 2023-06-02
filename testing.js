@@ -390,7 +390,7 @@ function createCards() {
 
 
 //prev button event
-document.getElementById("rightButton").addEventListener("click", () => {
+document.getElementById("leftButton").addEventListener("click", () => {
 
     scrollIndex++
 
@@ -402,7 +402,8 @@ document.getElementById("rightButton").addEventListener("click", () => {
 
         current.scrollIntoView({ behavior:"smooth" })
 
-    } else {
+    } 
+    else {
 
         scrollIndex = 0
 
@@ -417,9 +418,9 @@ document.getElementById("rightButton").addEventListener("click", () => {
 })
 
 //next button event
-document.getElementById("leftButton").addEventListener("click", () => {
+document.getElementById("rightButton").addEventListener("click", () => {
 
-    if (scrollIndex === 0 || scrollIndex < 1) {
+    if (scrollIndex == 0 || scrollIndex < 1) {
 
         scrollIndex = groupIds.length - 1
 
@@ -427,7 +428,8 @@ document.getElementById("leftButton").addEventListener("click", () => {
 
         current.scrollIntoView({ behavior: "smooth" })
 
-    } else if (scrollIndex > 0) {
+    } 
+    else if (scrollIndex > 0) {
 
         scrollIndex--
 
