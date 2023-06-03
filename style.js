@@ -81,166 +81,7 @@ const data = [
         nameVal: "Someone Famous",
         jobVal: "Full Stack Developer",
     },
-    // {
-    //     src: "./b1.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./g2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b1.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b3.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b4.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./g2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b3.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b1.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./g2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b1.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b3.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b4.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./g2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b3.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b1.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./g2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b1.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b3.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b4.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./g2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b3.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b1.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./g2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b1.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b3.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b4.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./g2.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
-    // {
-    //     src: "./b3.png",
-    //     nameVal: "Someone Famous",
-    //     jobVal: "Full Stack Developer",
-    // },
+
     {
         src: "./images/my company logo-1.jpg",
         nameVal: "Someone Famous",
@@ -400,9 +241,9 @@ document.getElementById("leftButton").addEventListener("click", () => {
 
         console.log(current)
 
-        current.scrollIntoView({ behavior:"smooth" })
+        current.scrollIntoView({ behavior: "smooth" })
 
-    } 
+    }
     else {
 
         scrollIndex = 0
@@ -428,7 +269,7 @@ document.getElementById("rightButton").addEventListener("click", () => {
 
         current.scrollIntoView({ behavior: "smooth" })
 
-    } 
+    }
     else if (scrollIndex > 0) {
 
         scrollIndex--
