@@ -197,8 +197,9 @@
 
  .bottom-details .bottom_text span,
  .bottom-details .bottom_text a {
-   font-size: 14px;
-   /* font-weight: 300; */
+   /* font-size: 18px; */
+   font-weight: 300;
+   font-family:sans-serif;
    color: black;
    /* opacity: 0.8; */
    text-decoration: none;
