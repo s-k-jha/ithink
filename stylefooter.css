@@ -39,7 +39,7 @@
    display: flex;
  }
 
- .content .top .media-icons a {
+ /* .content .top .media-icons a {
    height: 40px;
    width: 40px;
    margin: 0 8px;
@@ -95,7 +95,7 @@
  .top .media-icons a:nth-child(5):hover {
    color: #FF0000;
    background: #ffc107;
- }
+ } */
 
  footer .content .link-boxes {
    width: 100%;
