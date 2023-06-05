@@ -11,6 +11,39 @@ html {
     max-width: 100%;
     /* height: auto; */
 }
+/* dropdown menu of navigation bar */
+
+
+                .navbar {
+                    display: flex;
+                    justify-content: center;
+                }
+            
+                .menu {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 300px; /* Adjust the width as needed */
+                }
+            
+                .menu-item {
+                    flex-basis: 50%;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    text-align: center;
+                    border: 1px solid #ccc;
+                }
+                 
+                   
+          
+          .dropdown-menu {
+              display: none;
+          }
+      
+          .dropdown-menu.show {
+              display: block;
+          }
+      
+/* ends dropdown menu of navigation bar */
 
 /* how we can help you section styling starts */
 .help-text {
