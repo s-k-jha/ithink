@@ -150,12 +150,46 @@ html {
 
 /* phone number styling ends */
 
-/* about-row-feature-padding */
-.row {
-    padding-bottom: 32px;
+/* about */
+
+#about {
+  height: 600px;
+  width: 100vw;
+  /* background: rgb(0, 0, 0); */
+  background-image: url('./collection/bg\ for\ about.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+
+
 }
 
-/* about-row-feature-padding-styling-ends */
+#text {
+  height: 400px;
+  width: 70%;
+  opacity: 1;
+  display: inline-block;
+  line-height: 40px;
+  text-transform: capitalize;
+  /* color: rgb(255, 166, 0); */
+  font-weight: 700;
+
+
+}
+
+#pic {
+  height: 400px;
+  width: 20%;
+  background: url('./images/personal_nain_singh\ \(1\).jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  left: 10px;
+}
+
+/* about styling ends */
 
 /* reviews section for customer starts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
