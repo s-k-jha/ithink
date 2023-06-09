@@ -337,23 +337,23 @@ document.body.append(reviewsConatainer)
 
 
 const reviews = [
-  { image: './collection/service_offered_fan.jpg',
-      name: 'Charly Schmidt'
+  { image: './serviceimage/waterdamage.jpeg',
+      name: 'Water Damage'
   },
-  { image: './collection/service_offered_motherboard (1).jpg',
-      name: 'Kimberley Nicholls'
+  { image: './serviceimage/battery.jpeg', 
+  name: 'Battery Replacement'
   },
-  { image: './collection/service_offered_battery (1).jpg', 
-      name: 'Elwood Hook'
+  { image: './serviceimage/chiplevel.jpeg',
+  name: 'Chip Level Sevices'
   },
-  { image: './collection/service_offered_screen (1).jpg',
-      name: 'Elwood Hook'
+  { image: './serviceimage/screen.jpeg',
+      name: 'Screen Replacement'
   },
-  { image: './collection/service_offered_keyboard (1).jpg',
-      name: 'Fleur Hurst'
+  { image: './serviceimage/keyboardreplacement.jpeg',
+      name: 'Keyboard Replacement'
   },
-  { image: './collection/service_offered_motherboard (1).jpg', 
-    name: 'Geoffrey Carter'
+  { image: './serviceimage/fanreplacement.jpg', 
+    name: 'Fan Replacement'
   }
 ]
 
