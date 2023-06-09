@@ -354,3 +354,59 @@ html {
 }
 
 /* review section for customers ends */
+
+/* service offer */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+#reviews-container{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ padding: 15px;
+ margin: 20px 50px;
+ border: 1px solid #5f6368;
+ border-radius: 10px;
+ background-color: rgb(38, 41, 49);
+}
+.card{
+ width: 220px;
+ background-color: rgb(29, 30, 37);
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border-radius: 10px;
+ transform: scale(.8,.8);
+ transition: all 1s ease-in-out;
+ overflow: hidden;
+}
+.active{
+ opacity: 1;
+ transform: scale(1, 1);
+ transition: all .3s ease-in-out;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+ border: 1px solid #5f6368;
+}
+
+.img-container {
+ width: 250px;
+ height: 250px;
+ overflow: hidden;
+}
+
+.img-container img{
+ height: 100%;
+ width: 95%;
+}
+
+.name-container{
+ position: absolute;
+ bottom: 0;
+ background-color: rgb(192, 192, 192);
+ color: #000;
+ font-weight: 700;
+ width: 100%;
+ padding: 10px 0;
+ text-align: center;
+}

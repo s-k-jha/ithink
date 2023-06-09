@@ -324,3 +324,73 @@ function setGroupBy(number) {
 
 //create cards
 createCards()
+
+// service offer
+const h1 = document.createElement('h1');
+h1.textContent='Service Offered By IThink Hardware Solutions';
+h1.style.textAlign = "center";
+document.body.appendChild(h1);
+
+const reviewsConatainer = document.createElement('div');
+reviewsConatainer.id = 'reviews-container';
+document.body.append(reviewsConatainer)
+
+
+const reviews = [
+  { image: './collection/service_offered_fan.jpg',
+      name: 'Charly Schmidt'
+  },
+  { image: './collection/service_offered_motherboard (1).jpg',
+      name: 'Kimberley Nicholls'
+  },
+  { image: './collection/service_offered_battery (1).jpg', 
+      name: 'Elwood Hook'
+  },
+  { image: './collection/service_offered_screen (1).jpg',
+      name: 'Elwood Hook'
+  },
+  { image: './collection/service_offered_keyboard (1).jpg',
+      name: 'Fleur Hurst'
+  },
+  { image: './collection/service_offered_motherboard (1).jpg', 
+    name: 'Geoffrey Carter'
+  }
+]
+
+function populatReviews(){
+    reviews.forEach(review => {
+        const card= document.createElement('div')
+        card.classList.add('card');
+
+        card.addEventListener('mouseover', showCard)
+        card.addEventListener('mouseleave', blurCard)
+
+        const imgContainer = document.createElement('div');
+        imgContainer.classList.add('img-container');
+
+        const img= document.createElement('img');
+        img.setAttribute('src', review.image);
+        img.setAttribute('alt', review.alt);
+        imgContainer.append(img);
+
+        const revText = document.createElement('p');
+        revText.innerText = review.text;
+
+        const nameContainer = document.createElement('div');
+        nameContainer.classList.add('name-container');
+        nameContainer.textContent = review.name;
+
+        card.append(imgContainer, revText, nameContainer);
+        reviewsConatainer.append(card);
+
+    });
+}
+populatReviews();
+
+function showCard(){
+    this.classList.add('active')
+}
+
+function blurCard(){
+    this.classList.remove('active')
+}
