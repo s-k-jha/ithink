@@ -7,13 +7,9 @@ html {
 }
 
 .carousel-inner {
-    /* height: 700px; */
     max-width: 100%;
-    /* height: auto; */
 }
 /* dropdown menu of navigation bar */
-
-
                 .navbar {
                     display: flex;
                     justify-content: center;
@@ -30,8 +26,6 @@ html {
                     padding:10px;
                     box-sizing: border-box;
                     text-align: center;
-                    /* border: 1px solid #ccc; */
-                    /* background-color: #333; */
                 }
                  
                    
@@ -48,9 +42,6 @@ html {
 
 /* how we can help you section styling starts */
 .help-text {
-    /* background: red; */
-    /* background-image: linear-gradient(to left bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3)); */
-    /* background-image:  linear-gradient(to bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3)); */
     background-image: url('./collection/gif_bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,16 +51,11 @@ html {
 }
 
 .help-text:hover {
-    /* background-image: linear-gradient(to bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3)); */
-    /* background-image: linear-gradient(to left bottom, rgba(231, 21, 21, 0), rgb(107, 100, 18));
-    box-shadow: inset 0 0 10px rgb(0, 0, 0); */
-    /* background: black; */
     background-image: url('./collection/bg_image_for_helping2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     text-transform:capitalize;
    
-    
 }
 
 /* header navigation, dropdown , hover styling starts */
@@ -78,9 +64,6 @@ html {
 
 }
 
-/* .dropdown-item:hover {
-    border: 2px solid black;
-} */
 
 .navbar-brand img {
     height: 60px;
@@ -98,11 +81,6 @@ html {
 
 
 }
-/* 
-.nav-link:hover {
-    color: yellow;
-    
-} */
 
 .nav-link {
     color: black;
@@ -184,7 +162,6 @@ html {
   display: inline-block;
   line-height: 40px;
   text-transform: capitalize;
-  /* color: rgb(255, 166, 0); */
   font-weight: 700;
 
 
