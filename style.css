@@ -50,7 +50,10 @@ html {
 .help-text {
     /* background: red; */
     /* background-image: linear-gradient(to left bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3)); */
-    background-image:  linear-gradient(to bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3));
+    /* background-image:  linear-gradient(to bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3)); */
+    background-image: url('./collection/gif_bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     padding: 30px 2px 4px 20px;
@@ -58,8 +61,15 @@ html {
 
 .help-text:hover {
     /* background-image: linear-gradient(to bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3)); */
-    background-image: linear-gradient(to left bottom, rgba(231, 21, 21, 0), rgb(225, 207, 3));
-    box-shadow: inset 0 0 10px rgb(0, 0, 0);
+    /* background-image: linear-gradient(to left bottom, rgba(231, 21, 21, 0), rgb(107, 100, 18));
+    box-shadow: inset 0 0 10px rgb(0, 0, 0); */
+    /* background: black; */
+    background-image: url('./collection/bg_image_for_helping2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform:capitalize;
+   
+    
 }
 
 /* header navigation, dropdown , hover styling starts */
