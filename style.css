@@ -1,7 +1,8 @@
-body{
-   background: black;
+body {
+    background: black;
     color: yellow;
 }
+
 html {
     overflow-x: hidden;
 }
@@ -9,35 +10,37 @@ html {
 .carousel-inner {
     max-width: 100%;
 }
+
 /* dropdown menu of navigation bar */
-                .navbar {
-                    display: flex;
-                    justify-content: center;
-                }
-            
-                .menu {
-                    display: flex;
-                    flex-wrap: wrap;
-                    width: 400px; /* Adjust the width as needed */
-                }
-            
-                .menu-item {
-                    flex-basis: 50%;
-                    padding:10px;
-                    box-sizing: border-box;
-                    text-align: center;
-                }
-                 
-                   
-          
-          .dropdown-menu {
-              display: none;
-          }
-      
-          .dropdown-menu.show {
-              display: block;
-          }
-      
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    /* Adjust the width as needed */
+}
+
+.menu-item {
+    flex-basis: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
 /* ends dropdown menu of navigation bar */
 
 /* how we can help you section styling starts */
@@ -54,8 +57,8 @@ html {
     background-image: url('./collection/bg_image_for_helping2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    text-transform:capitalize;
-   
+    text-transform: capitalize;
+
 }
 
 /* header navigation, dropdown , hover styling starts */
@@ -141,39 +144,39 @@ html {
 /* about */
 
 #about {
-  height: 600px;
-  width: 100vw;
-  /* background: rgb(0, 0, 0); */
-  background-image: url('./collection/bg\ for\ about.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  overflow: hidden;
+    height: 600px;
+    width: 100vw;
+    /* background: rgb(0, 0, 0); */
+    background-image: url('./collection/bg\ for\ about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
 
 
 }
 
 #text {
-  height: 400px;
-  width: 70%;
-  opacity: 1;
-  display: inline-block;
-  line-height: 40px;
-  text-transform: capitalize;
-  font-weight: 700;
+    height: 400px;
+    width: 70%;
+    opacity: 1;
+    display: inline-block;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
 
 
 }
 
 #pic {
-  height: 400px;
-  width: 20%;
-  background: url('./images/personal_nain_singh\ \(1\).jpg');
-  background-repeat: no-repeat;
-  position: relative;
-  left: 10px;
+    height: 400px;
+    width: 20%;
+    background: url('./images/personal_nain_singh\ \(1\).jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    left: 10px;
 }
 
 /* about styling ends */
@@ -184,54 +187,56 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 
-#reviews-container{
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
- padding: 15px;
- margin: 20px 50px;
- border: 1px solid #5f6368;
- border-radius: 10px;
- background-color: rgb(38, 41, 49);
+#reviews-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 20px 50px;
+    border: 1px solid #5f6368;
+    border-radius: 10px;
+    background-color: rgb(38, 41, 49);
 }
-.card{
- width: 220px;
- background-color: rgb(29, 30, 37);
- position: relative;
- display: flex;
- flex-direction: column;
- align-items: center;
- border-radius: 10px;
- transform: scale(.8,.8);
- transition: all 1s ease-in-out;
- overflow: hidden;
+
+.card {
+    width: 220px;
+    background-color: rgb(29, 30, 37);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    transform: scale(.8, .8);
+    transition: all 1s ease-in-out;
+    overflow: hidden;
 }
-#reviews-container .active{
- opacity: 1;
- transform: scale(1, 1);
- transition: all .3s ease-in-out;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
- border: 1px solid #5f6368;
+
+#reviews-container .active {
+    opacity: 1;
+    transform: scale(1, 1);
+    transition: all .3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #5f6368;
 }
 
 .img-container {
- width: 250px;
- height: 250px;
- overflow: hidden;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
 }
 
-.img-container img{
- height: 100%;
- width: 95%;
+.img-container img {
+    height: 100%;
+    width: 95%;
 }
 
-.name-container{
- position: absolute;
- bottom: 0;
- background-color: rgb(192, 192, 192);
- color: #000;
- font-weight: 700;
- width: 100%;
- padding: 10px 0;
- text-align: center;
+.name-container {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(192, 192, 192);
+    color: #000;
+    font-weight: 700;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
 }

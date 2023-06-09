@@ -31,29 +31,35 @@ document.body.append(reviewsConatainer)
 
 
 const reviews = [
-  { image: './serviceimage/waterdamage.jpeg',
-      name: 'Water Damage'
-  },
-  { image: './serviceimage/battery.jpeg', 
-  name: 'Battery Replacement'
-  },
-  { image: './serviceimage/chiplevel.jpeg',
-  name: 'Chip Level Sevices'
-  },
-  { image: './serviceimage/screen.jpeg',
-      name: 'Screen Replacement'
-  },
-  { image: './serviceimage/keyboardreplacement.jpeg',
-      name: 'Keyboard Replacement'
-  },
-  { image: './serviceimage/fanreplacement.jpg', 
-    name: 'Fan Replacement'
-  }
+    {
+        image: './serviceimage/waterdamage.jpeg',
+        name: 'Water Damage'
+    },
+    {
+        image: './serviceimage/battery.jpeg',
+        name: 'Battery Replacement'
+    },
+    {
+        image: './serviceimage/chiplevel.jpeg',
+        name: 'Chip Level Sevices'
+    },
+    {
+        image: './serviceimage/screen.jpeg',
+        name: 'Screen Replacement'
+    },
+    {
+        image: './serviceimage/keyboardreplacement.jpeg',
+        name: 'Keyboard Replacement'
+    },
+    {
+        image: './serviceimage/fanreplacement.jpg',
+        name: 'Fan Replacement'
+    }
 ]
 
-function populatReviews(){
+function populatReviews() {
     reviews.forEach(review => {
-        const card= document.createElement('div')
+        const card = document.createElement('div')
         card.classList.add('card');
 
         card.addEventListener('mouseover', showCard)
@@ -62,7 +68,7 @@ function populatReviews(){
         const imgContainer = document.createElement('div');
         imgContainer.classList.add('img-container');
 
-        const img= document.createElement('img');
+        const img = document.createElement('img');
         img.setAttribute('src', review.image);
         img.setAttribute('alt', review.alt);
         imgContainer.append(img);
@@ -81,10 +87,10 @@ function populatReviews(){
 }
 populatReviews();
 
-function showCard(){
+function showCard() {
     this.classList.add('active')
 }
 
-function blurCard(){
+function blurCard() {
     this.classList.remove('active')
 }
