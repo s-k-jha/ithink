@@ -1,0 +1,11 @@
+<a href="paytmqr://pay?pa=8287388023&pn=shivam&mc=<>&tid=<TRANSACTION_ID>&tr=<TRANSACTION_AMOUNT>&tn=<TRANSACTION_DESCRIPTION>&url=<CALLBACK_URL>" target="_blank">
+    <img src="PATH_TO_QR_CODE_IMAGE" alt="Pay with Paytm" onclick="redirectToPaytm()" />
+  </a>
+  
+  <script>
+  function redirectToPaytm() {
+    window.location.href = "paytmqr://pay?pa=<YOUR_PAYTM_ACCOUNT>&pn=<PAYEE_NAME>&mc=<MERCHANT_CODE>&tid=<TRANSACTION_ID>&tr=<TRANSACTION_AMOUNT>&tn=<TRANSACTION_DESCRIPTION>&url=<CALLBACK_URL>";
+  }
+  </script>
+
+  <!--help of chatgpt -->
