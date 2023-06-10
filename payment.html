@@ -1,11 +1,20 @@
-<a href="paytmqr://pay?pa=8287388023&pn=shivam&mc=<>&tid=<TRANSACTION_ID>&tr=<TRANSACTION_AMOUNT>&tn=<TRANSACTION_DESCRIPTION>&url=<CALLBACK_URL>" target="_blank">
-    <img src="PATH_TO_QR_CODE_IMAGE" alt="Pay with Paytm" onclick="redirectToPaytm()" />
-  </a>
-  
-  <script>
-  function redirectToPaytm() {
-    window.location.href = "paytmqr://pay?pa=<YOUR_PAYTM_ACCOUNT>&pn=<PAYEE_NAME>&mc=<MERCHANT_CODE>&tid=<TRANSACTION_ID>&tr=<TRANSACTION_AMOUNT>&tn=<TRANSACTION_DESCRIPTION>&url=<CALLBACK_URL>";
-  }
-  </script>
-
-  <!--help of chatgpt -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="./payment.css">
+</head>
+<body>
+  <div>
+    <h1>Enjoy Hassle-Free Online Payment </h1>
+  </div>
+  <br><br>
+  <br>
+  <div class="container">
+    <div id="qr"><img src="./collection/IThink_QR.jpeg" alt="qr-code"></div>
+    <div id="gif"><img src="./collection/payment-gif (1).gif" alt="payment-method"></div>
+  </div>
+</body>
+</html>
