@@ -22,10 +22,13 @@ h1{
 img{
     height: 500px;
     border-radius: 25px;
-
-
 }
-img:hover{
-    height: 520px;
-}
-
+  .container img {
+    transition: transform 0.8s ease;
+  }
+  
+  #qr:hover img,
+  #gif:hover img {
+    transform: rotate(360deg);
+  }
+  
