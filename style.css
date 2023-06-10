@@ -57,7 +57,7 @@ html {
     background-image: url('./collection/bg_image_for_helping2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 
 }
 
