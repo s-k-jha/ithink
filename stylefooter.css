@@ -101,6 +101,7 @@
    width: 100%;
    display: flex;
    justify-content: space-between;
+   padding-bottom: 10px;
  }
 
  footer .content .link-boxes .box {
@@ -277,13 +278,18 @@
    }
  }
  
+
  /* sub footer counter and social media icons */
 .sub-footer{
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
-textarea {
+.website-counter-text{
+  color: white;
+}
+
+/* textarea {     this is for input-box which is comment in html 
   resize: none;
 }
 
@@ -301,10 +307,11 @@ white-space: nowrap;
 
 .svg-inline--fa {
 vertical-align: -0.200em;
-}
+} */
 
 .rounded-social-buttons {
 text-align: center;
+color: white;
 }
 
 .rounded-social-buttons .social-button {
