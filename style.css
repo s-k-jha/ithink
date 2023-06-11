@@ -216,12 +216,14 @@ html {
 .word2,
 .word3,
 .word4,
-.word5 {
+.word5
+ {
     font-family: tahoma;
 }
 
 @keyframes openclose {
     0% {
+        
         top: 0.2rem;
         width: 0;
     }
