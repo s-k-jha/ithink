@@ -408,3 +408,27 @@ html {
 }
 
 /* SERVICE OFFERED END  */
+
+/* phone and whatsapp bar styling */
+
+
+  .whats-app {
+    display: inline;
+    position: fixed;
+    bottom: 25px;
+    left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 999;
+}
+.mobileShow {
+    display: inline;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9;
+}
+
+/* phone and whatsapp bar styling ends */
