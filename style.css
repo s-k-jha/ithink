@@ -432,3 +432,101 @@ html {
 }
 
 /* phone and whatsapp bar styling ends */
+
+/* header phone-number styling starts */
+.container1 {
+    height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container1 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 930px) {
+  }
+}
+
+
+.button {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  border: 2px solid black;
+  border-radius: 1000px;
+  padding: 10px 20px;
+  margin: 20px;
+  box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+  transition: .5s all ease-in-out;
+  &:hover {
+    cursor:pointer;
+    background: black;
+    color: #ffc107;
+    animation: none;
+    animation-play-state: paused;
+  }
+}
+
+.button-wiggle {
+  animation: wiggle 4s 2s infinite;
+}
+
+@keyframes wiggle {
+	5%,
+	50% {
+		transform: scale(1);
+	}
+	10% {
+		transform: scale(0.9);
+	}
+	15% {
+		transform: scale(1.15);
+	}
+	20% {
+		transform: scale(1.15) rotate(-5deg);
+	}
+	25% {
+		transform: scale(1.15) rotate(5deg);
+	}
+	30% {
+		transform: scale(1.15) rotate(-3deg);
+	}
+	35% {
+		transform: scale(1.15) rotate(2deg);
+	}
+	40% {
+		transform: scale(1.15) rotate(0);
+	}
+}
+
+
+.button-pulse {
+  animation: pulse 2s infinite 3s cubic-bezier(0.25, 0, 0, 1);
+  box-shadow: 0 0 0 0 rgb(10, 6, 6);
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 18px rgba(255, 255, 255, 0); 
+  }
+}
+
+.button-float {
+  animation: float 1.5s linear alternate infinite;
+}
+
+@keyframes float {
+	50% {
+    transform: translateY(-px);
+  }
+  100% {
+    transform: translateY(-18px);
+  }
+}
+/* header phone-number styling starts ends */
