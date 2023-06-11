@@ -54,9 +54,10 @@ html {
 }
 
 .help-text:hover {
-    background-image: url('./collection/bg_image_for_helping2.jpg');
+    /* background-image: url('./collection/bg_image_for_helping2.jpg'); */
+    background-image: url('./collection/bgforabout(1).png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     /* text-transform: capitalize; */
 
 }
