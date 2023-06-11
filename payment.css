@@ -23,12 +23,12 @@ img{
     height: 500px;
     border-radius: 25px;
 }
-  .container img {
+  /* .container img {
     transition: transform 0.8s ease;
   }
   
   #qr:hover img,
   #gif:hover img {
     transform: rotate(360deg);
-  }
+  } */
   
