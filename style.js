@@ -42,7 +42,7 @@ const reviews = [
         name: 'Battery Replacement'
     },
     {
-        image: './serviceimage/chiplevel.jpeg',
+        image: './serviceimage/chiplevel.png',
         name: 'Chip Level Sevices'
     },
     {
