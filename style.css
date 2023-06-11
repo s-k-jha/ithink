@@ -225,122 +225,99 @@ html {
         top: 0.2rem;
         width: 0;
     }
-
     5% {
         width: 0;
     }
-
     10% {
         width: 270px;
     }
-
     15% {
         top: 0.2rem;
         width: 270px;
     }
-
     20% {
         top: 0.2rem;
         width: 0;
     }
-
     25% {
         top: 0.2rem;
         width: 0;
         text-indent: 5px;
     }
-
     29% {
         top: -4.5rem;
         width: 0;
     }
-
     33% {
         top: -4.5rem;
         width: 210px;
     }
-
     38% {
         top: -4.5rem;
         width: 210px;
     }
-
     43% {
         top: -4.5rem;
         width: 0;
         text-indent: 5px;
     }
-
     47% {
         top: -9rem;
         width: 0;
     }
-
     51% {
         top: -9rem;
         width: 285px;
     }
-
     56% {
         top: -9rem;
         width: 285px;
     }
-
     61% {
         top: -9rem;
         width: 0;
         text-indent: 5px;
     }
-
     65% {
         top: -13.5rem;
         width: 0;
     }
-
     69% {
         top: -13.5rem;
         width: 248px;
     }
-
     74% {
         top: -13.5rem;
         width: 248px;
     }
-
     79% {
         top: -13.5rem;
         width: 0;
         text-indent: 5px;
     }
-
     83% {
         top: -18rem;
         width: 0;
     }
-
     87% {
         top: -18rem;
         width: 550px;
     }
-
     92% {
         top: -18rem;
         width: 550px;
     }
-
     97% {
         top: -18rem;
         width: 0;
         text-indent: 5px;
     }
-
     100% {
         top: 0;
         width: 0;
         text-indent: 0;
     }
 }
-
 /* about styling ends */
 
 
