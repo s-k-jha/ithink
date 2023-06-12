@@ -1,15 +1,12 @@
-// script for navigation bar hover menu using flexbox
-
+// NAVIGATION MENU HOVER FLEXBOX START
 var dropdownMenu = document.querySelector('.dropdown-menu');
-
 function showDropdownMenu() {
     dropdownMenu.classList.add('show');
 }
-
 function hideDropdownMenu() {
     dropdownMenu.classList.remove('show');
 }
-// ENDS NAVIGATION MENU HOVER FLEXBOX
+// NAVIGATION MENU HOVER FLEXBOX END
 
 
 // CUSTOMER REVIEWS START
