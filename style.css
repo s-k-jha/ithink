@@ -370,9 +370,13 @@ html {
         /* visibility: hidden; */
         display: none;
     }
-    .slide{
+    .slider {
+        display: none !important;
+      }
+    .slider-heading{
         display: none;
     }
+
 
   }
  
