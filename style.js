@@ -43,7 +43,7 @@ const reviews = [
     },
     {
         image: './serviceimage/chiplevel.png',
-        name: 'Chip Level Sevices'
+        name: 'Chip Level Services'
     },
     {
         image: './serviceimage/screen.jpeg',
