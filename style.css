@@ -376,7 +376,9 @@ html {
     .slider-heading{
         display: none;
     }
-
+    .customer-reviews-box-container {
+        flex-wrap: wrap;
+      }
 
   }
  
