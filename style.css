@@ -322,11 +322,11 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-    /* Styles for screens with a maximum width of 768px */
+    /* Styles for screens with a maximum width of 600px */
   
    #pic{
     height: 33vh;
-    width: 100vw;
+    width: 90vw;
     left: 0px;
    }
     #about {
@@ -335,7 +335,9 @@ html {
       height: 800px;
       
     }
-  
+    div #pic{
+        margin-left: 55px;
+    }
     #text {
       padding-left: 0;
       /* text-align: center; */
@@ -364,6 +366,19 @@ html {
     .navbar-brand img{
         width: 200px;
     }
+    div #icon-name{
+        /* visibility: hidden; */
+        display: none;
+    }
+    .slider {
+        display: none !important;
+      }
+    .slider-heading{
+        display: none;
+    }
+    .customer-reviews-box-container {
+        flex-wrap: wrap;
+      }
 
   }
  
