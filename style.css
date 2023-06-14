@@ -89,7 +89,31 @@ html {
 .nav-link {
     color: black;
 }
-
+.course-box {
+    position: relative;
+  }
+  
+  .course-box::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 250px; /* Adjust the width as needed */
+    /*background-color: #ffc107; /* Adjust the background color as needed */
+    background-image: url('./collection/laptop\ \(1\).jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 80px;
+    display: none;
+    z-index: 1;
+  }
+  
+  .course-box:hover::before {
+    display: block;
+  }
+  
 /* header navigation, dropdown , hover styling ends */
 
 
