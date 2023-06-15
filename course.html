@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            /* border: 2px solid black; */
+            justify-content: space-evenly;
+            align-items: stretch;
+        }
+        .header{
+            text-align: center;
+            padding-bottom: 100px;
+        }
+        .price{
+            border: 2px solid rgb(235, 55, 255);
+            background: rgb(0, 0, 0);
+            color: yellow;
+           text-align: center;
+           margin-bottom: 20px;
+           width: 500px;
+        }
+        .offline-price{
+            border: 2px solid rgb(235, 55, 255);
+            background: rgb(0, 0, 0);
+            color: yellow;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 500px;
+        }
+      button{
+        background: yellow;
+        font-family: sans-serif;
+        font-weight: bold;
+        
+        
+        
+      }
+      #button{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 80px;
+      }
+      button a{
+        text-decoration: none;
+      }
+      button:hover{
+        transform: scale(1.5);
+      }
+      .price:hover{
+        transform: rotate(2deg);
+        
+      }
+      .offline-price:hover{
+        transform: rotate(2deg);
+      }
+      body{
+            background: #ffc107;
+            /* color: yellow; */
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+    
+
+    <button> <a href="./index.html"> Home</a>   </button>
+    <div class="header">
+        <h3 id="heading" style="color: black;">Chip Level Engineering Course Details</h3>
+        <h3 id="heading"style="color: black;">TOTAL COURSE DURATION TIME 6 MONTH</h3>
+        <p style="color: black;">OUR PROMISE WE ARE MAKING PRACTICAL ENGINEER</p>
+    </div>
+    <div id="button">
+    <button> <a href="./collection/Our course.docx"> Course Detailed pdf</a></button>
+    </div>
+    
+    <div class="container">
+        <div class="price">
+            <h3>ONLINE CLASSES:- 50K( ZOOM SOFT)</h3>
+            <p>Prerequisite:- Prior knowledge of assembly <br> and deassembly of IC (Integrated Circuit)</p>
+            
+
+        </div>
+        <div class="offline-price">
+            <h3>OFFLINE CLASSES:- 80K</h3>
+            <p>4 DAYS CLASSES MONDAY TO THURSDAY</p>
+            <p> 1.30 HOUR THEORY (1 HOUR PRACTICAL) CLASSES</p>
+        </div>
+    </div>
+    <!-- call section -->
+    <div class="container1">
+        <div class="button-container1"> 
+          <a href="tel:7289095397" class="button button-pulse">Call Nain Singh</a>
+        </div>
+      </div>          
+    <!-- call section ends -->
+
+
+    
+<!-- WHATSAPP BAR START -->
+  <div class="whats-app">
+    <a href="https://api.whatsapp.com/send?phone=+917289095397&amp;text=Hello IThink Hardware Solutions"
+      target="_blank"><img src="./collection/whatsapp icon.png" style="width:50px;"></a>
+  </div>
+<!-- WHATSAPP ICON BAR END -->
+
+
+<!-- PHONE ICON BAR START -->
+  <div class="mobileShow">
+    <a href="tel:+917289095397">
+      <div><img loading="lazy" src="./collection/call.ico" style="width:50px;"></div>
+    </a>
+  </div>
+<!-- PHONE ICON BAR END -->
+</body>
+
+</html>
