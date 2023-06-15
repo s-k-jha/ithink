@@ -15,6 +15,8 @@ function hideDropdownMenu() {
 
 
 // SERVICE OFFERED START
+const contentDiv = document.getElementById('content');
+
 const h1 = document.createElement('h1');
 h1.textContent = 'Service Offered By ';
 const companyName = document.createElement('span');
@@ -24,9 +26,13 @@ h1.appendChild(companyName);
 h1.style.textAlign = "center";
 document.body.appendChild(h1);
 
+contentDiv.appendChild(h1);
+
 const reviewsConatainer = document.createElement('div');
 reviewsConatainer.id = 'reviews-container';
 document.body.append(reviewsConatainer)
+
+contentDiv.appendChild(reviewsConatainer);
 
 
 const reviews = [
