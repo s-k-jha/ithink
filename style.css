@@ -37,32 +37,7 @@ html {
 
 .nav-link {
     color: black;
-}
-.course-box {
-    position: relative;
-  }
-  
-  .course-box::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 250px; /* Adjust the width as needed */
-    /*background-color: #ffc107; /* Adjust the background color as needed */
-    background-image: url('./collection/laptop\ \(1\).jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 80px;
-    display: none;
-    z-index: 1;
-  }
-  
-  .course-box:hover::before {
-    display: block;
-  }
-  
+}  
 /* header navigation, dropdown , hover styling ends */
 
 
@@ -104,7 +79,7 @@ html {
 #about {
     height: 600px;
     width: 100vw;
-    background-image: url('./collection/bg\ for\ about.png');
+    background-image: url('./collection/bg-for-about\ \(1\).jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -126,7 +101,7 @@ html {
 #pic {
     height: 450px;
     width: 20%;
-    background: url('./images/personal_nain_singh\ \(1\).jpg');
+    background: url('./collection/personal_nain_singh\ \(1\).jpg');
     background-repeat: no-repeat;
     position: relative;
     left: -40px;
@@ -340,7 +315,17 @@ html {
         flex-wrap: wrap;
       }
 
+      footer .bottom-details .bottom_text {
+        max-width: 1250px;
+        margin: auto;
+        padding: 18px 8px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
   }
+
  
 
 /* about styling ends */

@@ -21,7 +21,6 @@ const h1 = document.createElement('h1');
 h1.textContent = 'Service Offered By ';
 const companyName = document.createElement('span');
 companyName.textContent = 'IThink Hardware Solutions';
-// companyName.style.textTransform = "capitalize";
 h1.appendChild(companyName);
 h1.style.textAlign = "center";
 document.body.appendChild(h1);
